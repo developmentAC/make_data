@@ -2,13 +2,19 @@
 
 A Rust command-line tool to generate random (artificial) data. Data is saved as a CSV file. You can specify the number of rows, the types of columns (integer, float, word, name, phone), and the output file name. This is useful for generating mock data for testing, demos, or data science projects.
 
+Date: 6 October 2025
+
+Oliver Bonham-Carter
+
+Email: Obonhamcarter at allegheny.edu
+
 ![logo](graphics/logo.png)
 
 ## Features
 
-- Generate random integers, floats, words, names, and phone numbers
-- Specify the number of rows and column types via command line
-- Output to a CSV file with customizable filename
+* Generate random integers, floats, words, names, and phone numbers
+* Specify the number of rows and column types via command line
+* Output to a CSV file with customizable filename
 
 ## Setup
 
@@ -55,10 +61,11 @@ cargo run --release -- --rows 50 --columns float,float,float,float,float --outpu
 ```
 
 ## Dependencies
-- [clap](https://crates.io/crates/clap) for command-line argument parsing
-- [rand](https://crates.io/crates/rand) for random number generation
-- [csv](https://crates.io/crates/csv) for CSV writing
-- [fake](https://crates.io/crates/fake) for generating names, phone numbers, and words
+
+* [clap](https://crates.io/crates/clap) for command-line argument parsing
+* [rand](https://crates.io/crates/rand) for random number generation
+* [csv](https://crates.io/crates/csv) for CSV writing
+* [fake](https://crates.io/crates/fake) for generating names, phone numbers, and words
 
 ## License
 
